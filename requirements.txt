@@ -1,0 +1,14 @@
+# Core
+Django==5.1.1
+gunicorn==23.0.0
+
+# Database
+psycopg2-binary==2.9.9   # Postgres driver (binary = easier for demo/dev)
+
+
+# Optional utils
+python-dotenv==1.0.1     # Load .env in local dev
+
+# Testing / dev quality
+black==24.8.0
+flake8==7.1.1
